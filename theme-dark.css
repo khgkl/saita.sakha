@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+@font-face{
+    font-family: Basil Regular; /* Гарнитура шрифта */
+    src: url(ofont.ru_Basil.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    width: 1500px;
+    height: 1500px;
+}
+
+
+.parent{
+    height: 1500px;
+}
+
+.r{
+    background: #65B891;
+}
+
+
+.shapka{
+    height: 80px;
+    background: #65B891;
+    display: flex;
+}
+
+.sunmoon{
+    background: #65B891;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background: black;
+    justify-content: space-between;
+    
+   }
+
+    header nav ul li{
+      position: relative;
+      float: left;
+    }
+
+
+    header nav ul li a {
+      padding: 20px;
+      color: black;
+      font-size: 16px;
+      display: block;
+    }
+    
+     header nav ul li a:hover{
+      background: #387d4b;
+      color: white;
+     }
+
+.nasv{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.logo{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.search{
+    margin-top: 30px;
+}
+
+
+
+.menu{
+    background:  #65B891;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+
+
+
+.a{
+    text-decoration: none; 
+    color: black;
+    margin-left: 50px;
+
+}
+
+
+.avtors{
+     height: 200vh;
+     width: 1500px;
+     background: white;
+     padding-top: 8%;
+     display: none;
+}
+
+.osnov{
+    height: 100vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #93E5AB;
+    border-radius: 40px;
+    padding-top: 30px;
+
+}
+
+
+.di{
+    height: 50vh;
+    width: 1500px;
+    background: white;
+
+}
+
+
+.pop{
+   background: #c1e1e3;
+   width: 1500px;
+   height: 100vh;
+}
+
+
+.photo{
+   height: 289px;
+   width: 235px;
+   margin-left: 10px;
+}
+
+.ras{
+   
+    color: black;
+}
+
+
+.inside{
+    display: flex;
+    height: 290px;
+    border-radius: 40px;
+}
+
+.t1{
+    height: 270px;
+    width: 171px;
+}
+.main{
+    background: white;
+    height: 200vh;
+}
+
+
+.column{
+    background: #808080;
+    width: 194px;
+    height: 475px;
+    margin-left: 0px;
+}
+
+
+.proch{
+    margin-left: 10px;
+}
+
+
+
+
+.glav{
+    background: white;
+    height: 200vh;
+    margin-left: 194px;
+    width: 1500px;
+}
+
+
+
+.text1{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+}
+
+
+
+
+.text2{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: white;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+}
+
+
+
+.text3{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: white;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+}
+
+
+.work{
+    display: none;
+}
+
+
+
+.div1{
+    height: 50vh;
+    width: 100%;
+    background: white;
+}
+
+
+.max{
+   background: #c1e1e3;
+   width: 100%;
+   height: 32vh;
+   display: flex;
+}
+
+
+.writer{
+   height: 150px;
+   width: 290px;
+   margin-left: 50px;
+}
+
+
+
+.min{
+   background: #c1e1e3;
+   width: 100%;
+   height: 15vh;
+   margin-top: 10px;
+   display: flex;
+}
+
+
+
+
+.div2{
+    width: 95%;
+    margin-top: 30px;
+    background: #a3d9a5;
+}
+
+.div3{
+    width: 95%;
+    margin-top: 5px;
+    background: #a3d9a5;
+}

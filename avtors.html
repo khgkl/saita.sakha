@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+  <style type="text/css">
+     * {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+h4{
+    font-family: 'Merriweather', serif;
+}
+
+@font-face{
+    font-family: Basil Regular; /* Гарнитура шрифта */
+    src: url(ofont.ru_Basil.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    width: 1500px;
+    height: 1500px;
+}
+
+
+.parent{
+    height: 1500px;
+}
+
+.r{
+    background: #65B891;
+}
+
+
+.shapka{
+    height: 80px;
+    background: #65B891;
+    display: flex;
+}
+
+.sunmoon{
+    background: #65B891;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background: #65B891;
+    justify-content: space-between;
+    
+   }
+
+    header nav ul li{
+      position: relative;
+      float: left;
+    }
+
+
+    header nav ul li a {
+      padding: 20px;
+      color: black;
+      font-size: 16px;
+      display: block;
+    }
+    
+     header nav ul li a:hover{
+      background: #3B8864;
+      color: white;
+     }
+
+.nasv{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.logo{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.search{
+  margin-top: 30px;
+}
+
+
+
+.menu{
+    background:  #65B891;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+
+
+
+.a{
+    text-decoration: none; 
+    color: black;
+    margin-left: 50px;
+
+}
+
+
+.avtors{
+     height: 200vh;
+     width: 1500px;
+     background: white;
+     padding-top: 8%;
+}
+
+.osnov{
+    height: 100vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 40px;
+    padding-top: 30px;
+
+}
+
+
+.di{
+    height: 50vh;
+    width: 1500px;
+    background: white;
+
+}
+
+
+.pop{
+   background: #c1e1e3;
+   width: 1500px;
+   height: 100vh;
+}
+
+
+.photo{
+   height: 289px;
+   width: 235px;
+   margin-left: 10px;
+}
+
+.ras{
+   
+    color: black;
+}
+
+
+.inside{
+    display: flex;
+    height: 290px;
+    border-radius: 40px;
+}
+
+.t1{
+    height: 270px;
+    width: 171px;
+}
+
+.main{
+    background: white;
+    height: 200vh;
+}
+
+
+.column{
+    background: #808080;
+    width: 194px;
+    height: 475px;
+    margin-left: 0px;
+}
+
+
+.proch{
+    margin-left: 10px;
+}
+
+
+
+
+.glav{
+    background: white;
+    height: 200vh;
+    margin-left: 194px;
+    width: 1500px;
+}
+
+
+
+.text1{
+    width: 870px;
+    margin-left: 0px;
+    margin-top: 30px;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+.text2{
+    width: 870px;
+    margin-left: 0px;  
+    margin-top: 40px;
+    background: white;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.text3{
+    width: 870px;
+    margin-left: 0px;
+    margin-top: 40px;
+    background: white;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+.div1{
+    height: 50vh;
+    width: 100%;
+    background: white;
+}
+
+
+
+
+
+.div4{
+    height: 50vh;
+    width: 100%;
+    background: white;
+}
+
+
+
+.max{
+   background: white;
+   width: 100%;
+   height: 32vh;
+   display: flex;
+}
+
+
+
+
+
+.max2{
+   background: white;
+   width: 100%;
+   height: 32vh;
+   display: flex;
+}
+
+
+
+
+.writer{
+   height: 200px;
+   width: 150px;
+   margin-left: 50px;
+}
+
+
+
+.min{
+   background: white;
+   width: 100%;
+   height: 15vh;
+   margin-top: 10px;
+   display: flex;
+}
+
+
+
+
+.min2{
+   background: white;
+   width: 100%;
+   height: 15vh;
+   margin-top: 10px;
+   display: flex;
+}
+
+
+
+
+.div2{
+    height: 2000px;
+    width: 95%;
+    margin-top: 30px;
+    background: white;
+}
+
+
+
+
+.div6{
+    width: 95%;
+    margin-top: 30px;
+    background: white;
+}
+
+
+
+
+.div3{
+    width: 95%;
+    margin-top: 5px;
+    background: white;
+}
+
+
+
+
+.div5{
+    width: 95%;
+    margin-top: 5px;
+    background: white;
+}
+
+  </style>
+</head>
+<body>
+  <div class="parent">
+   <header class="border">
+           <img src="11.png" style="width:150px; height: 50px;margin-left: 20px;">             
+              <nav style="padding-right:12%;">
+                <ul class="li">
+                      <li><a href="file:///C:/Users/Пользователь/OneDrive/Рабочий%20стол/курсач/пробник/pr.html" style="text-decoration: none; font-family: 'Merriweather', serif;" class="">ГЛАВНАЯ</a></li>
+                      <li><a href="file:///C:/Users/Пользователь/OneDrive/Рабочий%20стол/курсач/пробник/test.html#" style="text-decoration: none;margin-left: 30px; font-family: 'Merriweather', serif;" class="testu text-center">ТЕСТЫ</a></li>
+                      <li><a href="file:///C:/Users/Пользователь/OneDrive/Рабочий%20стол/курсач/пробник/avtors.html" style="text-decoration: none;margin-left: 30px; font-family: 'Merriweather', serif;" class="av">АВТОРЫ</a></li>
+                </ul>
+              </nav> 
+              <!-- dark and light theme icon -->
+              <button class = "sunmoon" id="button7">
+            <img src="sun.webp" style="height: 30px; width: 30px;margin-top: 5px; margin-right: 20px;" id="image">
+            </button>
+         </header>
+        
+
+
+
+
+        <!-- авторы -->
+         <div class="avtors">
+           <div class="osnov">
+              <div class="inside" style="padding: 2%;">
+                  <div class="t1" style="margin-left:10px">
+                     <div style="background-image:url(oiunski.jpg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;">
+                     </div>
+                     <div style="margin-left: 12px;" class="biography1">
+                       <p>Платон Алексеевич Ойунский</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+                  <div class="t1" style="margin-left:40px">
+                     <div style="background-image:url(2.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;" >
+                     </div>
+                     <div style="margin-left: 12px;" class="biography2">
+                       <p>Анемподист Иванович Софронов(Алампа)</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+                  <div class="t1" style="margin-left:50px">
+                     <div style="background-image:url(3.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;" >
+                     </div>
+                     <div style="margin-left: 12px;" class="biography3">
+                       <p>Николай Егорович Мординов</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+                   <div class="t1" style="margin-left:50px">
+                     <div style="background-image:url(4.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;">
+                     </div>
+                     <div style="margin-left: 12px;" class="biography4">
+                       <p>Николай Денисович Неустроев</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+
+              </div> <!-- inside -->
+
+                <div class="inside" style="padding: 2%; margin-top: 30px;">
+                  <div class="t1" style="margin-left:10px">
+
+                     <div style="background-image:url(5.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;" >
+                     </div>
+                     <div style="margin-left: 12px;" class="biography5">
+                       <p>Петр Николаевич Тобуруокап</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+                  <div class="t1" style="margin-left:40px">
+                     <div style="background-image:url(6.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;" >
+                     </div>
+                     <div style="margin-left: 12px;" class="biography6">
+                       <p>Сивцев Дмитрий Кононович</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+                  <div class="t1" style="margin-left:50px">
+                     <div style="background-image:url(7.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;" >
+                     </div>
+                     <div style="margin-left: 12px;" class="biography7">
+                       <p>Николай Гаврилович Золотарёв</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+
+                   <div class="t1" style="margin-left:50px">
+                     <div style="background-image:url(8.jpeg); background-size: 100% 100%; height: 221px;width: 171px; border-radius: 30px;" >
+                     </div>
+                     <div style="margin-left: 12px;" class="biography8">
+                       <p>Алексей Елисеевич Кулаковский</p>
+                     </div>
+                  </div> <!-- t1 -->
+
+              </div> <!-- inside -->
+
+           </div> <!-- osnov -->
+         </div> <!-- avtors -->
+
+       
+
+
+
+          <!-- биография автора ойунский -->
+              <div class="bio" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(oiunski.jpg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Платон Алексеевич Ойунскай (Слепцов) </h4>
+                         <h4 style="margin-left: 25px;color:black;">(1893-1939)</h4>
+                         <h4 style="color:black;"> — якутский советский писатель, учёный-филолог и общественный деятель, основоположник якутской советской литературы.Ойунский – это псевдоним писателя, впоследствии ставший фамилией в паспорте. На якутском языке его имя звучит как Былатыан Ойуунускай.</h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+                           <h4 class="ras" style="  margin-top: 20px;">В 1914 году он поступил в Якутскую учительскую семинарию, которую окончил в 1917 году. В 1917—1918 годах учился в Томском учительском институте.</h4>
+                           <h4 class="ras" style="  margin-top: 20px;">Член КПСС с марта 1918 года. В 1921 году председатель Губревкома Якутии, в 1922 году председатель Совнаркома, в 1923 году председатель Центрального Исполнительного Комитета Якутской АССР.</h4>
+                            <h4 class="ras" style="  margin-top: 20px;"> В 1924 году выдвинул идею о создании Якутской национальной военной школы.</h4>
+                           
+                          <h4 class="ras" style="  margin-top: 20px;">
+                           В 1928—1931 годах — нарком просвещения и здравоохранения Якутии. В 1935 году по его инициативе был создан НИИ языка и культуры при СНК Якутской АССР, где он был первым директором. В этом же году защитил в Институте национальностей (Москва) диссертацию на степень кандидата лингвистических наук. Член правления Союза писателей СССР в (1934—1938) годах Депутат Верховного Совета СССР 1-го созыва.</h4>
+
+                             
+                          <h4 class="ras" style="  margin-top: 20px;">
+                           Первое стихотворение опубликовал в 1917 году. В 1919 году написал ставшее широко известным в то время в Якутии стихотворение «Син биир буолбаат?» (Не всё ли равно?). Его рассказы, повести, драмы вошли в золотой фонд литературы народа саха. В качестве этнографа собрал и подготовил к изданию якутские эпосы олонхо «Дьулуруйар Ньургун Боотур» (Нюргун Бо́тур Стремительный) и «Туналыйбыт ньуурдаах Туйаарыма Куо» (Прекрасная Туйа́рыма Куо). Обосновал использование силлабо-тонического стиха в якутском языке. Переводил на якутский язык классику русской и мировой литературы.</h4>
+
+                          <h4 class="ras" style="  margin-top: 20px;">
+                           3 февраля 1938 года был арестован органами НКВД в г. Иркутске, когда возвращался с 1-й сессии Верховного Совета СССР. Было инкриминировано обвинение в «руководстве буржуазно-националистической контрреволюционной организацией».</h4>
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                           Умер в больнице Якутской тюрьмы 31 октября 1939 года. Полностью реабилитирован 15 октября 1955 года.</h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+
+
+
+              <!-- биография алампа -->
+              <div class="bio2" style="display: none;">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(2.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Анемподист Иванович Софронов(Алампа)</h4>
+                         <h4 style="margin-left: 25px;color:black;">(1886-1935)</h4>
+                         <h4 style="color:black;"> -(якутское произношение имени Алампа; 2 (14) ноября 1886 год, 1-й Жохсогонский наслег, Ботурусский улус, Якутская область — 24 октября 1935) — якутский прозаик и поэт; драматург, первый теоретик и критик якутского театра. Основоположник якутской драматургии. Один из основоположников якутской литературы, общественный деятель.</h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+                           <h4 class="ras" style="  margin-top: 20px;">
+                             Родился 2 (14) ноября 1886 года в 1-м Жохсогонском наслеге Ботурусского улуса[1] Якутского округа Якутской области Российской империи в семье состоятельного якута Ивана Корниловича. Когда Алампе исполнилось три года, мать Елена Афанасьевна, в девичестве Сивцева умерла, после чего Софронов воспитывался в двух приёмных семьях, затем вернулся к отцу. По якутскому обычаю младший сын должен стать основным работником в доме родного отца, поэтому Алампа не отпускали учиться, однако в 15 лет он поступил в четырёхгодичную церковно-приходскую школу, которую окончил за два года. Далее занимался самообразованием, прошёл самостоятельно весь курс Якутского реального училища без иностранных языков.
+                           </h4>
+                           <h4 class="ras" style="  margin-top: 20px;">
+                           Осенью 1907 года А. Софронов тайком от отца приезжает в г. Якутск и устраивается чернорабочим в типографию газеты «Якутский край». Через некоторое время становится наборщиком издания на якутском языке. Сотрудничал затем в журнале «Саха саҥата» (1912—1913).</h4>
+                            <h4 class="ras" style="  margin-top: 20px;">
+                              В 1909—1921 годах Софронов работал писарем-счетоводом у известного якутского купца, рыбопромышленника Кирилла Давыдовича Спиридонова.
+                            </h4>
+                           
+                          <h4 class="ras" style="  margin-top: 20px;">
+                          Софронов был руководителем театрального дела в республике (1909—1927), председателем культурно-просветительного общества «Саха Омук», редактором первой советской газеты на якутском языке «Манчары» (1921—1922), избирался членом ЦИК Якутской АССР (1924), был членом- учредителем Якутского Научного Исследовательского Общества «Саха Кэскилэ» (1925). В 1925 по инициативе А. И. Софронова и П. А. Ойунского был предложен проект открытия картинной галереи в г. Якутске, будущий Национальный художественный музей Республики Саха (Якутия). Софронов так же был основателем и редактором первого литературно- художественного журнала «Чолбон» (1926), первым директором Саха театра (1926) и председателем Госкино республики (1926).
+                          </h4>
+
+                             
+                          <h4 class="ras" style="  margin-top: 20px;">
+                            С 1925 года работал в якутской секции Центрального издательства. Жил с супругой в доме по улице Садово-Спасская, где располагалось представительство Якутии. В Москве выходят отдельными книжками его драматические произведения. Софронов делегируется правительством Якутии в г. Ленинград на празднование 200-летия Академии наук СССР, участвует в работе Первого тюркологического съезда в г. Баку.
+                          </h4>
+
+                          <h4 class="ras" style="  margin-top: 20px;">
+                           В 1927 году был арестован и заключён в Новосибирской, затем Казанской, Бутырской тюрьмах по сфабрикованному «делу конфедералистов»[2]. Постановлением от 29 октября 1928 г. по ст. 58-11 уголовного кодекса РСФСР за участие в работе контрреволюционной организации приговорён к 5 годам заключения в Соловецком концентрационном лагере. 30 января 1928 г. по вмешательству видного советского деятеля Емельяна Ярославского заключение было заменено ссылкой на 5 лет в Архангельской губернии. Эти годы безвинно осуждённый поэт отбывал от звонка до звонка сначала в Архангельской губернии, затем в г. Иркутске.
+                          </h4>
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                           Умер 24 декабря 1935 года от туберкулёза. Оставил завещание о передаче всего своего литературного наследия Союзу писателей Якутии, из выручаемых средств литературного наследства высказал пожелание учредить постоянную премию его имени за лучшее драматическое произведение на якутском языке.
+                         </h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio2 -->
+          
+
+
+
+
+
+
+
+
+          <!-- биография автора мординов -->
+              <div class="bio3" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(3.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Николай Егорович Мординов</h4>
+                      
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                           Родился 7 апреля 1906 года в Нижнеамгинском наслеге Ботурусского улуса[1] Якутской области, в семье крестьян.
+
+                            В 1928 году окончил Якутский педагогический техникум, в 1931-м — отделение языка и литературы Второго Московского государственного университета.
+
+                            Очень долго и плодотворно работал в редакциях республиканских газет «Бэлэм буол» и «Юность Севера».
+
+                            Член Союза писателей СССР с 1934 года.
+
+                            Н. Е. Мординов был делегатом первого съезда писателей СССР. Избирался депутатом Верховного Совета СССР 7-го созыва, Верховного Совета РСФСР 4-го созыва.
+
+                            Умер 14 ноября 1994 года. Захоронен на кладбище в Якутске.</h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+
+   
+
+
+
+          <!-- биография автора неустроев -->
+              <div class="bio4" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(4.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Николай Денисович Неустроев</h4>
+                         <h4 style="margin-left: 25px;color:black;"></h4>
+                         <h4 style="color:black;"> -Родился в  (15) декабря 1895 года в 4-м Баягантайском наслеге Баягантайского улуса[1] Якутской области. Старший брат Анны Неустроевой, писательницы.</h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                            Начальное образование получил в Баягантайской школе. В 1910—1913 годах учился в четырёхклассном Якутском городском училище. Учился вместе с Платоном Слепцовым (Ойунским), Максимом Аммосовым. В годы учёбы активно участвовал в работе литературно-общественного кружка учащихся; увлекался театром — в то время в Доме приказчиков и отдельных домах ставились драмы русских классиков на якутском языке, пьесы Анемподиста Софронова. В 1916 году Николай Неустроев вместе с Платоном Ойунским перевёл комедию Гоголя «Ревизор», что стало пробой пера начинающего драматурга. Из-за болезни, не окончив училище, вынужден был вернуться на родину; занимался самообразованием, читал много классической литературы.
+
+                            В 1919 году Н. Неустроев состоял членом волостного и наслежного ревкомов, в 1922—1924 годах работал учителем в Уолбинской школе.
+
+                            В 1925 году был делегатом IV Якутского съезда Советов.
+
+                            В 1925—1926 годах — ответственный секретарь редакции журнала «Хозяйство Якутии».
+
+                            В 1927 году он был направлен на учёбу в Московский литературный институт им. В. Брюсова, но слабое здоровье помешало ему учиться.
+
+                            Николай Неустроев скончался 21 июля 1929 года в Якутске после продолжительной болезни, был похоронен на территории[2] Никольской церкви.
+                           </h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+            
+
+
+          <!-- биография автора тобуруокап -->
+              <div class="bio5" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(5.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Петр Николаевич Тобуруокап</h4>
+                         <h4 style="margin-left: 25px;color:black;"></h4>
+                         <h4 style="color:black;"> -якутский писатель, народный поэт Якутии. Участник Великой Отечественной войны. Член СП СССР с 1957 г.</h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                                                        
+                            Творчество Петра Тобурокова многогранно и отличается широким жанровым диапазоном: это сотни популярных песен и стихов, поэмы, сказки, баллады, сатира, лирическая проза, оригинальные пьесы, философские эссе. Петр Тобуроков является классиком якутской детской литературы.
+                           </h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+
+
+
+
+
+
+          <!-- биография автора кононович -->
+              <div class="bio6" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(6.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Сивцев Дмитрий Кононович</h4>
+                         <h4 style="margin-left: 25px;color:black;"></h4>
+                         <h4 style="color:black;"> -Дмитрий Сивцев родился в 3-м Жехсогонском наслеге Таттинского улуса Якутской области 1 (14) сентября 1906 год в семье крестьянина-середняка. В 1928 году окончил Якутский педагогический техникум.</h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                            Первые произведения Сивцева были напечатаны в 1926 году. В ранний период творчества он писал в основном рассказы, часто сатирического характера. Его перу принадлежат комедия «Лежебока», драмы «Кузнец Кюкюр» и «Сайсары», трагедия «Саяна»; он является автором либретто ко многим театральным постановкам Якутского музыкально-драматического театра. Также им был написан ряд историко-краеведческих работ и произведений для детей.
+
+                            Сивцев вёл широкую культурно-просветительскую деятельность. Он является основателем Черкёхского музея политической ссылки, Ленского историко-архитектурного музея-заповедника «Дружба», музея под открытым небом Хадаайы в Таттинском улусе. В 1990-е годы внёс большой вклад в восстановление церквей в Якутии, за что был отмечен наградами Русской православной церкви.
+                           </h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+
+
+
+
+
+          <!-- биография автора Николай Гаврилович Золотарёв -->
+              <div class="bio7" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(7.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Николай Гаврилович Золотарёв</h4>
+                         <h4 style="margin-left: 25px;color:black;"></h4>
+                         <h4 style="color:black;"> -Николай Золотарёв родился 22 ноября 1908 года в Харбалахском наслеге Верхневилюйского улуса Якутской области. В 1930 г. окончил школу среднего командного состава и по 1938 г.</h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                            служил в пограничных войсках. В 1934 году окончил Академию коммунистического воспитания имени Н. К. Крупской. С октября 1938г. работал пропагандистом и лектором в Молдавии, а затем - в аппарате Якутского обкома КПСС. Член КПСС с 1929 г. В 1948—1953 и 1958—1961 годах возглавлял Союз писателей Якутской АССР. В 1956 г. окончил Высшие литературные курсы при Литературном институте М.А.Горького. Работал главным редактором журнала "Хотугу сулус" и "Полярная звезда". Избирался депутатом Верховного Совета ЯАССР.
+
+                            Умер 11 декабря 1995 года в Тирасполе. Похоронен в Верхневилюйском улусе.
+                           </h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+     
+
+          <!-- биография автора Алексей Елисеевич Кулаковский -->
+              <div class="bio8" style="display:none">
+                 <div class="di">
+                   <div class="pop" style="background:white;margin-left:10px; ">
+                    <div style="height: 310px;background: white;display: flex;margin-top: 80px;">
+                    <!-- фото автора -->
+                       <div class="photo" style="background-image: url(8.jpeg) ; background-size: 100% 100%;border-radius: 20px;">
+                       </div>
+
+                       <div style="height: 500px; width: 100%;padding: 2%; margin-left: 25px;">
+                         <h4 style="color:black">Алексей Елисеевич Кулаковский</h4>
+                         <h4 style="margin-left: 25px;color:black;"></h4>
+                         <h4 style="color:black;"> -Алексей Кулаковский родился 4 (16) марта 1877 года в семье скотовода в 4-м Жохсогонском наслеге Ботурусского улуса Якутской области (ныне Таттинский улус, Республика Саха (Якутия). </h4>
+                       </div>
+                     </div>
+                    <div>
+
+                       <div style="width: 90%; margin-top:50px; background: white; margin-left: 40px;">
+                           <h4 class="ras">Об авторе</h4> 
+
+                           <h4 class="ras" style="  margin-top: 20px;">
+                          Окончил реальное училище в Якутске в 1897 году. Он много путешествовал по родному краю, изучая его природные богатства, этнографию, экономику.
+
+                            В декабре 1925 года выехал делегатом от Якутской АССР на I тюркологический съезд в Баку. (Первый Всесоюзный тюркологический съезд проходил в Баку с 26 февраля по 6 марта 1926 года.) По пути заболел, умер от болезни в Москве 6 июня 1926 года. Похоронен в Москве на Даниловском кладбище.
+                           </h4>
+
+
+                        </div>
+                       </div>
+
+                    </div>   <!-- pop -->
+
+               </div> <!-- di -->
+            </div> <!-- bio -->
+
+
+
+
+       </div>
+       <script type="text/javascript" src="avtors.js"></script>
+</body>
+</html>

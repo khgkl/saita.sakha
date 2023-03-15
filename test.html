@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+  <style type="text/css">
+     * {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+h4{
+    font-family: 'Merriweather', serif;
+}
+
+@font-face{
+    font-family: Basil Regular; /* Гарнитура шрифта */
+    src: url(ofont.ru_Basil.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    width: 1500px;
+    height: 1500px;
+}
+
+
+.parent{
+    height: 1500px;
+}
+
+.r{
+    background: #65B891;
+}
+
+
+.shapka{
+    height: 80px;
+    background: #65B891;
+    display: flex;
+}
+
+.sunmoon{
+    background: #65B891;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background: #65B891;
+    justify-content: space-between;
+    
+   }
+
+    header nav ul li{
+      position: relative;
+      float: left;
+    }
+
+
+    header nav ul li a {
+      padding: 20px;
+      color: black;
+      font-size: 16px;
+      display: block;
+    }
+    
+     header nav ul li a:hover{
+      background: #3B8864;
+      color: white;
+     }
+
+.nasv{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.logo{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.search{
+  margin-top: 30px;
+}
+
+
+
+.menu{
+    background:  #65B891;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+
+
+
+.a{
+    text-decoration: none; 
+    color: black;
+    margin-left: 50px;
+
+}
+
+
+.avtors{
+     height: 200vh;
+     width: 1500px;
+     background: white;
+     padding-top: 8%;
+     display: none;
+}
+
+.osnov{
+    height: 100vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 40px;
+    padding-top: 30px;
+
+}
+
+
+.di{
+    height: 50vh;
+    width: 1500px;
+    background: white;
+
+}
+
+
+.pop{
+   background: #c1e1e3;
+   width: 1500px;
+   height: 100vh;
+}
+
+
+.photo{
+   height: 289px;
+   width: 235px;
+   margin-left: 10px;
+}
+
+.ras{
+   
+    color: black;
+}
+
+
+.inside{
+    display: flex;
+    height: 290px;
+    border-radius: 40px;
+}
+
+.t1{
+    height: 270px;
+    width: 171px;
+}
+
+.main{
+    background: white;
+    height: 200vh;
+}
+
+
+.column{
+    background: #808080;
+    width: 194px;
+    height: 475px;
+    margin-left: 0px;
+}
+
+
+.proch{
+    margin-left: 10px;
+}
+
+
+
+
+.glav{
+    background: white;
+    height: 200vh;
+    margin-left: 194px;
+    width: 1500px;
+}
+
+
+
+.text1{
+    width: 870px;
+    margin-left: 0px;
+    margin-top: 30px;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+.text2{
+    width: 870px;
+    margin-left: 0px;  
+    margin-top: 40px;
+    background: white;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.text3{
+    width: 870px;
+    margin-left: 0px;
+    margin-top: 40px;
+    background: white;
+    height: 276px;
+    display: flex;
+    border-radius: 25px;
+     background: white;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+.div1{
+    height: 50vh;
+    width: 100%;
+    background: white;
+}
+
+
+
+
+
+.div4{
+    height: 50vh;
+    width: 100%;
+    background: white;
+}
+
+
+
+.max{
+   background: white;
+   width: 100%;
+   height: 32vh;
+   display: flex;
+}
+
+
+
+
+
+.max2{
+   background: white;
+   width: 100%;
+   height: 32vh;
+   display: flex;
+}
+
+
+
+
+.writer{
+   height: 200px;
+   width: 150px;
+   margin-left: 50px;
+}
+
+
+
+.min{
+   background: white;
+   width: 100%;
+   height: 15vh;
+   margin-top: 10px;
+   display: flex;
+}
+
+
+
+
+.min2{
+   background: white;
+   width: 100%;
+   height: 15vh;
+   margin-top: 10px;
+   display: flex;
+}
+
+
+
+
+.div2{
+    height: 2000px;
+    width: 95%;
+    margin-top: 30px;
+    background: white;
+}
+
+
+
+
+.div6{
+    width: 95%;
+    margin-top: 30px;
+    background: white;
+}
+
+
+
+
+.div3{
+    width: 95%;
+    margin-top: 5px;
+    background: white;
+}
+
+
+
+
+.div5{
+    width: 95%;
+    margin-top: 5px;
+    background: white;
+}
+
+  </style>
+</head>
+<body>
+  <div class="parent">
+   <header class="border">
+           <img src="11.png" style="width:150px; height: 50px;margin-left: 20px;">             
+              <nav style="padding-right:12%;">
+                <ul class="li">
+                      <li><a href="file:///C:/Users/Пользователь/OneDrive/Рабочий%20стол/курсач/пробник/pr.html" style="text-decoration: none; font-family: 'Merriweather', serif;" class="">ГЛАВНАЯ</a></li>
+                      <li><a href="#" style="text-decoration: none;margin-left: 30px; font-family: 'Merriweather', serif;" class="testu text-center">ТЕСТЫ</a></li>
+                      <li><a href="file:///C:/Users/Пользователь/OneDrive/Рабочий%20стол/курсач/пробник/pr.html#" style="text-decoration: none;margin-left: 30px; font-family: 'Merriweather', serif;" class="av">АВТОРЫ</a></li>
+                </ul>
+              </nav> 
+              <!-- dark and light theme icon -->
+              <button class = "sunmoon" id="button7">
+            <img src="sun.webp" style="height: 30px; width: 30px;margin-top: 5px; margin-right: 20px;" id="image">
+            </button>
+         </header>
+
+
+        <!-- варианты ответов и вопросы -->
+         <div class="test3" style="height:1000px;width:1512px;background: white;margin-top: 80px;display: none;">
+      <div style="background:#F4EFD3;border-radius: 15px;width: 1292px;height: 90px; margin-left: auto; margin-right: auto;padding-top: 10px;">
+        <h4 class="text-center">Тест по “Биэс ынахтаах Бэйбэрикээн эмээхсин”</h4>
+      </div>
+      <div style="width:1235px;height: 248px;background: white; margin-top: 20px; margin-left: 30px;">
+        <h4 style="margin-left: 5px; margin-top: 5px">1. Хаьыс хонукка Бэйбэрикээн эмээхсин тураа5ы керсубутэй?</h4>
+        <ul>
+         <l class="wrong"i> Бастакы</li>
+         <li class="prav1">Бэьис</li>
+          <li class="wrong">Алтыс</li>
+           <li class="wrong">Уьус</li>
+        </ul>
+      </div>
+
+
+       <div style="width:1235px;height: 248px;background: white; margin-top: 10px; margin-left: 30px;">
+        <h4 style="margin-left: 5px; margin-top: 5px">2. Ким Бэйбэрикээн эмээхсиннэ суолу ыйан биэрбитэй?</h4>
+        <ul>
+         <li class="prav2">Хотой</li>
+         <li class="wrong">Суор</li>
+         <li class="wrong">Тураах</li>
+        <li class="wrong">Саьыл</li>
+        </ul>
+      </div>
+
+
+        <div style="width:1235px;height: 248px;background: white; margin-top: 10px; margin-left: 30px;">
+        <h4 style="margin-left: 5px; margin-top: 5px">3. Оту дьиэтигэр агалан, хаьыс киириттэн дьиэтигэр кыыьы кербутэй?</h4>
+         <ul>
+         <li class="wrong"> Бастакы</li>
+         <li class="prav3">Бэьис</li>
+          <li class="wrong">Алтыс</li>
+           <li class="wrong">Уьус</li>
+     </ul>
+      </div>
+
+
+
+
+     </div>
+     <!-- test2 -->
+        
+        <!-- test var -->
+      <div class="test2" style="" >
+        <div class="" style="height:1000px;width:1512px; margin-top: 150px;">
+          <div style="height:40px;width:200px;background: white;margin-top: 50px;margin-left: 80px; background: ;">
+            <h4>Тесты</h4>
+          </div>
+
+          <div style="height:1000px;width:1500px;background: white;display: flex;margin-top: 15px;margin-left: 0px;">
+
+           <div style="width:370px;height: 640px; margin-left: 80px;background:#24302B;border-radius: 15px;">
+
+              <div style="height: 571px;width: 370px;background-image: url(test1.png);background-size: 100% 100%;border-radius: 15px;" class="otvet"></div>
+              <div style="height: 50px;width:370px;background:#24302B;">
+                <h4 style="color:white;">Тест по “Биэс ынахтаах Бэйбэрикээн Эмээхсин” </h4>
+              </div>
+
+           </div>
+
+
+
+
+           </div>
+
+          </div>
+         </div>
+         <!-- test2 -->
+       </div>
+       <script type="text/javascript" src="test.js"></script>
+</body>
+</html>
